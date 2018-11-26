@@ -1,1 +1,13 @@
+https://github.com/eswaribala/rps_apigee_2018.git
+
+http://www.gcomputer.net/webservices/dilbert.asmx
+
+
+
+
+
+
+
+
+
 https://raw.githubusercontent.com/apigee/api-platform-samples/master/default-proxies/helloworld/openapi/mocktarget.yaml
