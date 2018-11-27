@@ -1,0 +1,25 @@
+API Key as request param
+
+https://parameswaribala-eval-test.apigee.net/fiservphotos?apikey=m427tO1fbeyWYy1f6IXlZMDaiurGHqTV
+------------------------------------------------------------
+
+
+After modifying policy to header instead of request param
+
+curl -v -H "apikey: MKwVfPhKtXIE0KkhVk2ZrpSGJbdEnVsy" http://parameswaribala-eval-test.apigee.net/basicauth
+
+-------------------------------------------------------
+Oauth
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
+https://parameswaribala-eval-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials \
+-d 'client_id=7gz7mzrTJ0MF3T22xkff1UA5UXYvwDzP&client_secret=Vbg91OkqsCh4WJJn'
+
+After receiving access token
+
+gRhN22vNU93wwEs9A921lZMLd8WE
+
+
+curl https://parameswaribala-eval-test.apigee.net/oauth2demo -H "Authorization: Bearer 
+gRhN22vNU93wwEs9A921lZMLd8WE"
+
+
